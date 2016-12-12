@@ -6,7 +6,7 @@ This project is currently based on Sufia 7.0.
 ## Installation
 * Check out this project
 * In the config directory, change the names of the files that end with "-template" to remove the "-template" part, and fill in appropriate values
-* Run 'bundle install' and 'rake db:migrate'
+* Run 'bundle install' and 'rake db:migrate' (do NOT run 'bundle update' - certain newer gems will break this project)
 * Create users (see below).
 
 Note that this project disabled creating new users from within the interface. To create a user, run the following in the rails console:
